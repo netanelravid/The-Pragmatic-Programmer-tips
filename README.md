@@ -2,7 +2,7 @@
 After a lot of books and tutorials I've read on *'How to programming in language X'* and *'How to Use framework Y'* I've search for a new book.
 I've look for a book which will contribute me in a different way, something which will make me one step closer to be a better software developer, more than a language-framework-skill user.
 
-The book **The Pargmatic Programmer** make me to realize that code writing its just a side effect as a developer.
+The book **The Pargmatic Programmer** made me to realize that code writing its just a side effect as a developer.
 
 Right now I'm reading this book and I'm collecting some tips during my journey.
 I will write here some tips from time to time, hope it will be useful to you.
