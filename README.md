@@ -5,13 +5,11 @@ I've look for a book which will contribute me in a different way, something whic
 The book **The Pargmatic Programmer** made me to realize that code writing its just a side effect as a developer.
 
 Right now I'm reading this book and I'm collecting some tips during my journey.
-I will write here some tips from time to time, hope it will be useful to you.
+I will write here some of my own tips from time to time, and also the tips mentioned which mentioned by the authors. hope it will be useful to you.
 
-I've also include the tips which already mentioned in the book, it will be colorized)
-
-The TPP book tips will be :book:
-
-My tips will be :black_nib:
+Tips icons:
+- The TPP book tips will be :book:
+- My tips will be :black_nib:
 
 **Note: Read the book!! those tips are just a good-to-keep cheatsheet**
 
