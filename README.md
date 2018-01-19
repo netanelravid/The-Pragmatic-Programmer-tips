@@ -108,3 +108,108 @@ Tips icons:
     - Keep your code decoupled
     - Avoid global data
     - Avoid similar functions
+#### **Reversibility**
+- :black_nib: There is always more than one way to implement something
+- :black_nib:  Requirements, users, and hardware change faster than we can get the software developed
+14. :book: There Are No Final Decisions
+#### **Tracer Bullets**
+- Something that gets us from
+a requirement to some aspect of the final system quickly, visibly, and
+repeatably.
+15. Use Tracer Bullets to Find the Target
+- Tracer code is not fully functional. However, once you
+have achieved an end-to-end connection among the components of your
+system, you can check how close to the target you are, adjusting if
+necessary.
+- Advantages:
+    - Users get to see something working early
+    - Developers build a structure to work in
+    - You have an integration platform
+    - You have something to demonstrate
+    - You have a better feel for progress
+- A small body of code is easy and quick to change
+- Prototyping
+generates disposable code. Tracer code is lean but complete, and forms part
+of the skeleton of the final system
+#### **Prototypes and Post-it Notes**
+- We tend to think of prototypes as code-based, but they don't always have to
+b, we can build prototypes out of different materials.
+Post-it notes are great for prototyping dynamic things, drawn with a paint program, or
+with an interface builder
+- Things to Prototype:
+    - Architecture
+	- New functionality in an existing system
+	- Structure or contents of external data
+	- Third-party tools or components
+	- Performance issues
+	- User interface design
+- Prototyping is a learning experience. Its value lies not in the code produced,
+but in the lessons learned
+16. Prototype to Learn
+- When building a prototype you can ignore:
+    - Correctness
+    - Completeness
+    - Robustness (error checks)
+    - Style
+- Prototypes can be
+deceptively attractive to people who don't know that they are just
+prototypes. You must make it very clear that this code is disposable,
+incomplete, and unable to be completed.
+#### **Domain Languages**
+17. Program Close to the Problem Domain
+- By coding at a higher level of abstraction, you are free to
+concentrate on solving domain problems, and can ignore petty
+implementation details
+- There are many users of an application: end
+users, operations staff, support and maintenance programmers, etc, each of these users has their own problem domain.
+- A mini-language may be in a line-oriented, easily parsed
+format, it can
+be parsed simply using switch statements, or using regular expressions
+#### **Estimating**
+18. Estimate to Avoid Surprises
+- How accurate is accurate enough? depends on the context, its a high accuracy or a ballpark figure?
+- the units you use
+make a difference in the interpretation of the result (days, weeks, months)
+- Ask someone who's
+already done it, cast
+around for someone who's been in a similar situation in the past
+- You need to think about the scope before
+starting to guess
+- build a rough and ready bare-bones mental model, the process leads to discoveries of underlying patterns
+and processes that weren't apparent on the surface
+- Break the model into components, you'll need
+to discover the mathematical rules that describe how these components
+interact
+- each component have parameters that affect
+how it contributes to the overall model
+- work out which parameters have the most impact on the result, and
+concentrate on getting them about right
+- varying the values of the critical
+parameters, until you work out which ones really drive the model. A
+spreadsheet can be a big help
+- record your estimates so you can see how close
+you were
+19. Iterate the Schedule with the Code 
+- When you asked for an estimate, say "I'll get back to you", estimates given at the coffee machine will come back to
+haunt you
+
+## *3. The Basic Tools*
+#### **Intro**
+- The better your tools, and the better you know
+how to use them, the more productive you can be
+- Always be on the lookout for better ways of
+doing things. If you come across a situation where you feel your current
+tools can't cut it, make a note to look for something different or more
+powerful that would have helped
+#### **The Power of Plain Text**
+20. Keep Knowledge in Plain Text
+- Insurance against obsolescence, human-readable forms of data will outlive all
+other forms of data
+- Virtually every tool in the computing universe can operate on plain text
+- Easier testing, it is
+a simple matter to add, update, or modify the test data without having to
+create any special tools to do so.
+#### **Shell Games**
+- The command line is
+better suited when you want to quickly combine a couple of commands
+21. Use the Power of Command Shells 
